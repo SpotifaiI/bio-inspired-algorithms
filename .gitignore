@@ -1,0 +1,32 @@
+# Ignorar arquivos compilados
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar ambientes virtuais (caso tenha configurado)
+env/
+venv/
+.venv/
+
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar configurações do editor (como VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de cache do Python
+*.pyo
+*.pyd
+
+# Ignorar arquivos de backup
+*~
